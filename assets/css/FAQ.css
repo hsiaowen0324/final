@@ -1,0 +1,19 @@
+body{
+	font-family: "微軟正黑體";
+}
+.logo-image{
+	height: 80px;
+	width:120px;
+}
+.top-info{
+	background-color:white;
+}
+.card-header{
+	background: white;
+	font-size: 18px;
+	color:black;
+}
+.card{
+	border-right:none;
+	border-left:none;
+}

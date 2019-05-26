@@ -1,0 +1,84 @@
+.logo-image{
+	height: 80px;
+	width:120px;
+}
+
+
+body{
+	font-family: tahoma;
+	background-image: url(../image/bg-login.jpg);
+	height:100vh;
+	min-height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow-y: hidden;
+
+}
+
+.login-reg-panel{
+
+	position: relative;
+	background-color: rgba(30,30,30,0.9);
+	color:#b8b8b8;
+	height: 400px;
+	width:82%;
+	text-align: center;
+	top: 13%;
+	padding:2%;
+
+}
+.white-panel{
+	background-color: rgba(255,255,255,1);
+	height: 410px;
+	top:25%;
+	transition: .3s ease-in-out;
+	z-index: 0;
+	color:black;
+
+}
+.login-show,
+.register-show{
+		z-index: 1;
+		opacity: 1;
+		transition: .3s ease-in-out;
+		color:black;
+		text-align: left;
+		padding:15% 10%;
+	
+}
+.register-show{
+	display: none;
+}
+.top-info{
+	background-color: white;
+}
+.search-box{
+	position: absolute;
+	background: red;
+	height: 40px;
+	border-radius: 40px;
+	padding:10px;
+}
+.search-btn{
+	color:white;
+	float:right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: blue;
+}.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float:left;
+	padding: 0;
+	color:green;
+	font-size:16px;
+	transition:4s;
+	line-height: 40px;
+	width: 240px; 
+}
+
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Alfie|做您唯一的專屬顧問</title>
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/login.css">
+		<script src="assets/js/jquery-3.4.0.min.js" type="text/javascript"></script>
+		<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		function login() {
+   		document.getElementById("white-panel").style.transform = "translate(0,0)";
+		var x = document.getElementById('login-show');
+		var r = document.getElementById('register-show');
+  		if (x.style.display === 'block') {
+    		x.style.display = 'none';
+    	 	r.style.display = 'block';
+  		} else {
+  		  x.style.display = 'block';
+  		  r.style.display = 'none';
+  		} 
+		}
+		function register() {
+  		document.getElementById("white-panel").style.transform = "translate(100%,0)"; 
+		var x = document.getElementById('login-show');
+		var r = document.getElementById('register-show');
+  		if (r.style.display === 'block') {
+    		r.style.display = 'none';
+    	 	x.style.display = 'block';
+  		} else {
+  		  r.style.display = 'block';
+  		  x.style.display = 'none';
+  		} 
+		}
+
+		</script>
+	</head>
+	<body>
+		<!--頂部網頁資訊開始-->
+		<div class="container-fluid px-0 mx-0">
+			<div class="top-info ">
+				<!--LOGO開始-->
+				<div class="d-flex row mx-0 px-2 justify-content-between align-items-center ">
+					<div class="d-flex row mx-0 px-2 justify-content-start  ">
+					
+					<div class="logo">
+						<a href="index.html">
+					<img class="  d-block  logo-image" src="assets/image/logo.png" alt="logo" >
+					</a>
+					</div>
+				
+						<div class="nav">
+						<div class="d-flex row mx-0 px-2">
+							<nav class="navbar navbar-expand-lg navbar-light navbarContent">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<ul class="navbar-nav mr-auto">
+										<li class="nav-item active p-2">
+											<a class="nav-link" href="#"> Product <span class="sr-only">(current)</span></a>
+										</li>
+										<li class="nav-item p-2">
+											<a class="nav-link" href="#"> About_Us </a>
+										</li>
+										<li class="nav-item p-2">
+											<a class="nav-link" href="#"> Team </a>
+										</li>
+										<li class="nav-item p-2">
+											<a class="nav-link" href="#"> Contact_Us</a>
+										</li>
+										<li class="nav-item p-2">
+												<a class="nav-link" href="FAQ.html"> FAQ</a>
+											</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			
+				<div class="member">
+					<ul class="list-inline-item">
+						<li class="list-inline-item">
+							<div class="search-box">
+								<input class="search-txt" type="text" name="" value="" placeholder="Type to search">
+								<a class="search-btn justify-content-center align-items-center" href="#">
+									<i class="fas fa-search"></i>
+								</a>
+							</div>
+						</li>
+						<li class="list-inline-item">
+							<a href="login.html" >
+								<div class="btn btn-outline-info signin-button">
+									<span class="far fa-user fa-3g"> </span>
+									<span class="menu-words align-items-center">登入會員</span>
+								</div>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" >
+								<div class="btn btn-outline-info signin-button">
+									<span class="fas fa-shopping-cart fa-3g"> </span>
+									<span class="menu-words align-items-center">購物車</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="login-reg-panel row justify-content-around offset-1 position-relative">
+			<div class="col-6 pt-5">
+				<div class="text-left login-info-box p-5 align-items-center">
+				<h2>Have an account?</h2>
+				<br>
+				<button type="button" class="btn btn-outline-light" id="btn-register" onclick="login()">Login</button>
+			</div>
+
+			</div>
+			<div class="col-6 pt-5">
+				<div class="text-left register-info-box p-5 align-items-center">
+				<h2>Don't have an account?</h2>
+					<br>
+				<button type="button" class="btn btn-outline-light btn-login" id="btn-login" onclick="register()">Register</button>
+			
+
+			</div>
+		</div>
+		</div>
+	
+		<!--白底上的顯示-->
+			<div class="white-panel col-sm-5  offset-1 position-absolute" id="white-panel">
+					<!--登入連結-->
+				<div class="login-show 	" id="login-show" >
+					<h2>Login</h2>
+					<form>
+  					<div class="form-group row">
+   					 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    				<div class="col-sm-10">
+      				<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+   					 </div>
+ 					 </div>
+  					<div class="form-group row">
+    					<label for="inputPassword3 " class="col-sm-2 col-form-label">Password</label>
+    					<div class="col-sm-10">
+   	  			 <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+   				 </div>
+ 					 </div>
+ 					</form>
+					<button type="button" class="btn btn-outline-info">Login</button>
+				</div>
+
+				<!--註冊連結-->
+				<div class="register-show" id="register-show">
+					<h2>Register</h2>
+					<form>
+  					<div class="form-group row">
+   					 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    				<div class="col-sm-10">
+      				<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+   					 </div>
+ 					 </div>
+  					<div class="form-group row">
+    					<label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    					<div class="col-sm-10">
+   	  			 <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+   				 </div>
+ 					 </div>
+ 					 <div class="form-group row">
+    					<label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
+    					<div class="col-sm-10">
+   	  			 <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+   				 </div>
+ 					 </div>
+ 					</form>
+				<button type="button" class="btn btn-outline-info">Register</button>
+
+				</div>
+			</div>
+
+
+
+		</div>

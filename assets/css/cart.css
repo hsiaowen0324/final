@@ -1,0 +1,31 @@
+body{
+	background-color:#f8f9fa;
+	font-family:"微軟正黑體";
+}
+.logo-image{
+	height: 80px;
+	width:120px;
+}
+.top-info{
+	background-color:white;
+}
+.cart-table{
+
+padding-top:5%;
+}
+
+table img{
+	height:60px;
+	width:60px;
+}
+.total{
+	font-size:18px;
+	background-color:white;
+
+}
+.number{
+	font-size:18px;
+	background-color:white;
+	color:#CC0000;
+	font-weight:bold;
+}
