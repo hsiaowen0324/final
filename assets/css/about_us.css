@@ -9,25 +9,12 @@ body{
 .top-info{
 	background-color:white;
 }
-.cart-table{
-
-padding-top:5%;
+.title{
+	font-weight: bold;
+	font-size: 36px;
 }
-
-table img{
-	height:60px;
-	width:60px;
-}
-.total{
-	font-size:18px;
-	background-color:white;
-
-}
-.number{
-	font-size:18px;
-	background-color:white;
-	color:#CC0000;
-	font-weight:bold;
+.content{
+	font-size: 18px;
 }
 .web-footer{
 	background-color:rgba(0,0,0,0.6);

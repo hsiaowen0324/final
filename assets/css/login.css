@@ -2,8 +2,6 @@
 	height: 80px;
 	width:120px;
 }
-
-
 body{
 	font-family: tahoma;
 	background-image: url(../image/bg-login.jpg);
@@ -54,31 +52,3 @@ body{
 .top-info{
 	background-color: white;
 }
-.search-box{
-	position: absolute;
-	background: red;
-	height: 40px;
-	border-radius: 40px;
-	padding:10px;
-}
-.search-btn{
-	color:white;
-	float:right;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background: blue;
-}.search-txt{
-	border: none;
-	background: none;
-	outline: none;
-	float:left;
-	padding: 0;
-	color:green;
-	font-size:16px;
-	transition:4s;
-	line-height: 40px;
-	width: 240px; 
-}
-
-

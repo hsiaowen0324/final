@@ -7,38 +7,11 @@
 		<title>Alfie|做您唯一的專屬顧問</title>
 		<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/login.css">
+		<link rel="stylesheet" href="assets/css/about_us.css">
 		<script src="assets/js/jquery-3.4.0.min.js" type="text/javascript"></script>
 		<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-		<script type="text/javascript">
-		function login() {
-		document.getElementById("white-panel").style.transform = "translate(0,0)";
-		var x = document.getElementById('login-show');
-		var r = document.getElementById('register-show');
-		if (x.style.display === 'block') {
-		x.style.display = 'none';
-		r.style.display = 'block';
-		} else {
-		x.style.display = 'block';
-		r.style.display = 'none';
-		}
-		}
-		function register() {
-		document.getElementById("white-panel").style.transform = "translate(100%,0)";
-		var x = document.getElementById('login-show');
-		var r = document.getElementById('register-show');
-		if (r.style.display === 'block') {
-		r.style.display = 'none';
-		x.style.display = 'block';
-		} else {
-		r.style.display = 'block';
-		x.style.display = 'none';
-		}
-		}
-		</script>
 	</head>
 	<body>
-		<!--頂部網頁資訊開始-->
 		<div class="container-fluid px-0 mx-0">
 			<div class="top-info ">
 				<!--LOGO開始-->
@@ -104,74 +77,84 @@
 				</div>
 			</div>
 		</div>
-		<div class="login-reg-panel row justify-content-around offset-1 position-relative">
-			<div class="col-6 pt-5">
-				<div class="text-left login-info-box p-5 align-items-center">
-					<h2>Have an account?</h2>
-					<br>
-					<button type="button" class="btn btn-outline-light" id="btn-register" onclick="login()">Login</button>
-				</div>
-			</div>
-			<div class="col-6 pt-5">
-				<div class="text-left register-info-box p-5 align-items-center">
-					<h2>Don't have an account?</h2>
-					<br>
-					<button type="button" class="btn btn-outline-light btn-login" id="btn-login" onclick="register()">Register</button>
-					
+
+		<!--banner-->
+		<div class="container-fluid">                                         
+			<img src="assets/image/FAQ.jpg" class="w-100 " alt="FAQ">
+		</div>
+		<!--關於我們開始-->
+		<div class="container-fluid">
+			<div class="d-flex row mx-0 px-2 align-items-center background bg-success">
+				<div class="col-7 p-5 offset-1">
+					<h4 class="title">緣由</h4>
+					<div class="content py-1">
+						眼睛是人們的靈魂之窗，眼鏡對於近視的人來說是一個很重要的設計，但因市面上眼鏡種類擁有許多種，未必能帶給顧客最高的滿意度，因此經過我們的討論，我們決定全程參與設計製作，從基本款到功能款，只要是從我們這裡製作出去的眼鏡，我們都會經過層層把關，把最好的品質帶給您，也會讓你對我們的商品感到覺得完美，就有如我們口號所說的-「做你的專屬顧問」
+					</div>
 				</div>
 			</div>
 		</div>
-		
-		<!--白底上的顯示-->
-		<div class="white-panel col-sm-5  offset-1 position-absolute" id="white-panel">
-			<!--登入連結-->
-			<form>
-				<div class="login-show " id="login-show" >
-					<h2>Login</h2>
-					
-					<div class="form-group row">
-						<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-						<div class="col-sm-10">
-							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-						</div>
-					</div>
-					<div class="form-group row">
-						<label for="inputPassword3 " class="col-sm-2 col-form-label">Password</label>
-						<div class="col-sm-10">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-						</div>
-					</div>
-					
-					<button type="button" class="btn btn-outline-info">Login</button>
+		<footer class="web-footer">
+	<div class="container web-item-footer">
+		<div class="row justify-content-center">
+			<div class="col-4 pt-5">
+				<div class="footer-context px-4">
+					連絡地址: 桃園市中壢區中北路200號<br>
+					聯絡電話: 03-265-9999<br>
+					服務信箱: alfieservice@gmail.com<br>
+					營業時間: 週一至週五 11:00~22:00 <br>
 				</div>
-			</form>
-			<!--註冊連結-->
-			<form>
-				<div class="register-show" id="register-show">
-					<h2>Register</h2>
-					<div class="form-group row">
-						<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-						<div class="col-sm-10">
-							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+				<ul class="list-inline-item p-3">
+					<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-2x mx-1"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-2x mx-1"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-line fa-2x mx-1"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-8">
+				<div class="row py-3 justify-content-center">
+					<div class="footer-title p-4"><a href="index.html">HOME</a>
+						<div class="footer-context pt-2">
+							商品推薦<br>
+							服務項目<br>
 						</div>
 					</div>
-					<div class="form-group row">
-						<label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-						<div class="col-sm-10">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+					<div class="footer-title p-4"><a href="about_us.html">About Us</a>
+						<div class="footer-context pt-2">
+							創設緣由<br>
+							創社理念<br>
+							未來願景<br>
+							團隊<br>
 						</div>
 					</div>
-					<div class="form-group row">
-						<label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
-						<div class="col-sm-10">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+					<div class="footer-title p-4"><a href="shop.html">Product</a>
+						<div class="footer-context pt-2">
+							全部商品<br>
+							為您推薦<br>
 						</div>
 					</div>
-					<button type="button" class="btn btn-outline-info">Register</button>
+					<div class="footer-title p-4"><a href="class.html">Classes</a>
+						<div class="footer-context pt-2">
+							視力保健<br>
+							鏡框介紹<br>
+							鏡框保養<br>
+							鏡片保養<br>
+						</div>
+					</div>
+					<div class="footer-title p-4"><a href="FAQ.html">FAQ</a>
+						<div class="footer-context pt-2">
+								常見問題
+						</div>
+					</div>
 				</div>
-			</form>
+			</div>
 		</div>
+		<div class="row justify-content-end footer-item p-2">瀏覽人數:000000</div>
 	</div>
-	
+</div>
+<div class="container-fluid py-3 bg-dark">
+	<div class="row justify-content-center align-items-center footer-item">
+		Copyright &copy     Alfie   做您唯一的專屬顧問   since 2019
+	</div>
+</div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Alfie|做您唯一的專屬顧問</title>
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/shop.css">
+		<script src="assets/js/jquery-3.4.0.min.js" type="text/javascript"></script>
+		<script src="assets/js/shop.js" type="text/javascript"></script>
+		<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="container-fluid px-0 mx-0">
+			<div class="top-info ">
+				<!--LOGO開始-->
+				<div class="d-flex row mx-0 px-2 justify-content-between align-items-center ">
+					<div class="d-flex row mx-0 px-2 justify-content-start  ">
+						
+						<div class="logo">
+							<a href="index.html">
+								<img class="  d-block  logo-image" src="assets/image/logo.png" alt="logo" >
+							</a>
+						</div>
+						
+						<div class="nav">
+							<div class="d-flex row mx-0 px-2">
+								<nav class="navbar navbar-expand-lg navbar-light navbarContent">
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+									</button>
+									<div class="collapse navbar-collapse" id="navbarSupportedContent">
+										<ul class="navbar-nav mr-auto">
+											<li class="nav-item active p-2">
+												<a class="nav-link" href="shop.html"> Product <span class="sr-only">(current)</span></a>
+											</li>
+											<li class="nav-item p-2">
+												<a class="nav-link" href="about_us.html"> About_Us </a>
+											</li>
+											<li class="nav-item p-2">
+												<a class="nav-link" href="Contact_Us.html"> Contact_Us</a>
+											</li>
+											<li class="nav-item p-2">
+												<a class="nav-link" href="class.html"> Classes</a>
+											</li>
+											<li class="nav-item p-2">
+												<a class="nav-link" href="FAQ.html"> FAQ</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+					
+					<div class="member">
+						<ul class="list-inline-item">
+							<li class="list-inline-item">
+								<a href="login.html" >
+									<div class="btn btn-outline-info signin-button">
+										<span class="far fa-user fa-3g"> </span>
+										<span class="menu-words align-items-center">登入會員</span>
+									</div>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="cart.html" >
+									<div class="btn btn-outline-info signin-button">
+										<span class="fas fa-shopping-cart fa-3g"> </span>
+										<span class="menu-words align-items-center">購物車</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="container-fluid">
+			<img src="assets/image/FAQ.jpg" class="w-100 " alt="FAQ">
+		</div>
+		<!--上面按件-->
+		<div class="shop p-5">
+			<div class="col-10 px-0 offset-1">
+				<ul class="nav nav-pills flex-column flex-sm-row bg-info nav-justified justify-content-center align-items-center" id="pills-tab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active flex-sm-fill text-sm-center" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true"><h4 class="nav-h4">全部商品</h4>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link flex-sm-fill text-sm-center" id="pills-suggest-tab" data-toggle="pill" href="#pills-suggest" role="tab" aria-controls="pills-suggest" aria-selected="false"><h4 class="nav-h4">為您推薦</h4>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+					<div class="col-md-11 justify-content-start align-items-center offset-1">
+						<div class="card-deck pt-5">
+							<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+								<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+								<div class="pt-2 col-10 shop-item-details row justify-content-center">
+									<div class="shop-item-title">商品名稱商品名稱</div>
+									<div class="row mx-0 justify-content-around col-8 px-0">
+										<div class="shop-item-price">NT$550</div>
+										<form class=" " action="">
+											<button class=" btn shop-item-button fas fa-shopping-cart">
+											<input type='hidden' name='pid' value="">
+											<input type='hidden' name='ProductName' value="">
+											<input type='hidden' name='ProductPrice' value="">
+											<input type='hidden' name='ProductImg' value="">
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+								<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+								<div class="pt-2 col-10 shop-item-details row justify-content-center">
+									<div class="shop-item-title">商品名稱商品名稱</div>
+									<div class="row mx-0 justify-content-around col-8 px-0">
+										<div class="shop-item-price">NT$550</div>
+										<form class=" " action="">
+											<button class=" btn shop-item-button fas fa-shopping-cart">
+											<input type='hidden' name='pid' value="">
+											<input type='hidden' name='ProductName' value="">
+											<input type='hidden' name='ProductPrice' value="">
+											<input type='hidden' name='ProductImg' value="">
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+								<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+								<div class="pt-2 col-10 shop-item-details row justify-content-center">
+									<div class="shop-item-title">商品名稱商品名稱</div>
+									<div class="row mx-0 justify-content-around col-8 px-0">
+										<div class="shop-item-price">NT$550</div>
+										<form class=" " action="">
+											<button class=" btn shop-item-button fas fa-shopping-cart">
+											<input type='hidden' name='pid' value="">
+											<input type='hidden' name='ProductName' value="">
+											<input type='hidden' name='ProductPrice' value="">
+											<input type='hidden' name='ProductImg' value="">
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+								<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+								<div class="pt-2 col-10 shop-item-details row justify-content-center">
+									<div class="shop-item-title">商品名稱商品名稱</div>
+									<div class="row mx-0 justify-content-around col-8 px-0">
+										<div class="shop-item-price">NT$550</div>
+										<form class=" " action="">
+											<button class=" btn shop-item-button fas fa-shopping-cart">
+											<input type='hidden' name='pid' value="">
+											<input type='hidden' name='ProductName' value="">
+											<input type='hidden' name='ProductPrice' value="">
+											<input type='hidden' name='ProductImg' value="">
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--為您推薦-->
+				<div class="tab-pane fade show " id="pills-suggest" role="tabpanel" aria-labelledby="pills-suggest-tab">
+					<div class=" col-12 pt-5">
+						<ul class="list-inline-item nav justify-content-center" id="myTab" role="tablist">
+							<div class="face-item-title list-inline-item">臉型:</div>
+							<li class=" list-inline-item mx-4 nav-item">
+								<a class="nav-link active" id="circle-tab" data-toggle="tab" href="#circle" role="tab" aria-controls="circle" aria-selected="true">
+									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<div class="face-text px-4">圓形</div>
+								</a>
+							</li>
+							<li class=" list-inline-item mx-4 nav-item" >
+								<a class="nav-link " id="square-tab" data-toggle="tab" href="#square" role="tab" aria-controls="square" aria-selected="false">
+									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<div class="face-text px-4">方形</div>
+								</a>
+							</li>
+							<li class=" list-inline-item mx-4 nav-item">
+								<a class="nav-link " id="oval-tab" data-toggle="tab" href="#oval" role="tab" aria-controls="oval" aria-selected="false">
+									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<div class="face-text px-4">瓜子臉</div>
+								</a>
+							</li>
+							<li class=" list-inline-item mx-4 nav-item">
+								<a class="nav-link " id="rectangular-tab" data-toggle="tab" href="#rectangular" role="tab" aria-controls="rectangular" aria-selected="false">
+									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<div class="face-text px-4">長方形</div>
+								</a>
+							</li>
+							<li class=" list-inline-item mx-4 nav-item">
+								<a class="nav-link " id="heart-tab" data-toggle="tab" href="#heart" role="tab" aria-controls="heart" aria-selected="false">
+									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<div class="face-text px-4">心形</div>
+								</a>
+							</li>
+							<li class="list-inline-item mx-4 nav-item">
+								<a class="nav-link " id="triangular-tab" data-toggle="tab" href="#triangular" role="tab" aria-controls="triangular" aria-selected="false">
+									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<div class="face-text px-4">倒三角形</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+			
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="circle" role="tabpanel" aria-labelledby="circle-tab">
+						<div class="col-md-11 justify-content-start align-items-center offset-1">
+							<div class="card-deck pt-3">
+								<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+									<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+									<div class="pt-2 col-10 shop-item-details row justify-content-center">
+										<div class="shop-item-title">圓形商品名稱商品名稱</div>
+										<div class="row mx-0 justify-content-around col-8 px-0">
+											<div class="shop-item-price">NT$550</div>
+											<form class=" " action="">
+												<button class=" btn shop-item-button fas fa-shopping-cart">
+												<input type='hidden' name='pid' value="">
+												<input type='hidden' name='ProductName' value="">
+												<input type='hidden' name='ProductPrice' value="">
+												<input type='hidden' name='ProductImg' value="">
+												</button>
+											</form>
+										</div>
+									</div>
+								</div>
+								<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+									<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+									<div class="pt-2 col-10 shop-item-details row justify-content-center">
+										<div class="shop-item-title">商品名稱商品名稱</div>
+										<div class="row mx-0 justify-content-around col-8 px-0">
+											<div class="shop-item-price">NT$550</div>
+											<form class=" " action="">
+												<button class=" btn shop-item-button fas fa-shopping-cart">
+												<input type='hidden' name='pid' value="">
+												<input type='hidden' name='ProductName' value="">
+												<input type='hidden' name='ProductPrice' value="">
+												<input type='hidden' name='ProductImg' value="">
+												</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="tab-pane" id="square" role="tabpanel" aria-labelledby="square-tab">
+							<div class="col-md-11 justify-content-start align-items-center offset-1">
+								<div class="card-deck pt-3">
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">方形商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+									
+									
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="tab-pane" id="oval" role="tabpanel" aria-labelledby="oval-tab">
+							<div class="col-md-11 justify-content-start align-items-center offset-1">
+								<div class="card-deck pt-3">
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">瓜子商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+									
+									
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="rectangular" role="tabpanel" aria-labelledby="rectangular-tab">
+							<div class="col-md-11 justify-content-start align-items-center offset-1">
+								<div class="card-deck pt-3">
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">長方商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+									
+									
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="heart" role="tabpanel" aria-labelledby="heart-tab">
+							<div class="col-md-11 justify-content-start align-items-center offset-1">
+								<div class="card-deck pt-3">
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">心形商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+									
+									
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="tab-pane" id="triangular" role="tabpanel" aria-labelledby="triangular-tab">
+							<div class="col-md-11 justify-content-start align-items-center offset-1">
+								<div class="card-deck pt-3">
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">三角商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+
+									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
+										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
+										<div class="pt-2 col-10 shop-item-details row justify-content-center">
+											<div class="shop-item-title">商品名稱商品名稱</div>
+											<div class="row mx-0 justify-content-around col-8 px-0">
+												<div class="shop-item-price">NT$550</div>
+												<form class=" " action="">
+													<button class=" btn shop-item-button fas fa-shopping-cart">
+													<input type='hidden' name='pid' value="">
+													<input type='hidden' name='ProductName' value="">
+													<input type='hidden' name='ProductPrice' value="">
+													<input type='hidden' name='ProductImg' value="">
+													</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="web-footer">
+	<div class="container web-item-footer">
+		<div class="row justify-content-center">
+			<div class="col-4 pt-5">
+				<div class="footer-context px-4">
+					連絡地址: 桃園市中壢區中北路200號<br>
+					聯絡電話: 03-265-9999<br>
+					服務信箱: alfieservice@gmail.com<br>
+					營業時間: 週一至週五 11:00~22:00 <br>
+				</div>
+				<ul class="list-inline-item p-3">
+					<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-2x mx-1"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-2x mx-1"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-line fa-2x mx-1"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-8">
+				<div class="row py-3 justify-content-center">
+					<div class="footer-title p-4"><a href="index.html">HOME</a>
+						<div class="footer-context pt-2">
+							商品推薦<br>
+							服務項目<br>
+						</div>
+					</div>
+					<div class="footer-title p-4"><a href="about_us.html">About Us</a>
+						<div class="footer-context pt-2">
+							創設緣由<br>
+							創社理念<br>
+							未來願景<br>
+							團隊<br>
+						</div>
+					</div>
+					<div class="footer-title p-4"><a href="shop.html">Product</a>
+						<div class="footer-context pt-2">
+							全部商品<br>
+							為您推薦<br>
+						</div>
+					</div>
+					<div class="footer-title p-4"><a href="class.html">Classes</a>
+						<div class="footer-context pt-2">
+							視力保健<br>
+							鏡框介紹<br>
+							鏡框保養<br>
+							鏡片保養<br>
+						</div>
+					</div>
+					<div class="footer-title p-4"><a href="FAQ.html">FAQ</a>
+						<div class="footer-context pt-2">
+								常見問題
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-end footer-item p-2">瀏覽人數:000000</div>
+	</div>
+</div>
+<div class="container-fluid py-3 bg-dark">
+	<div class="row justify-content-center align-items-center footer-item">
+		Copyright &copy     Alfie   做您唯一的專屬顧問   since 2019
+	</div>
+</div>
+</footer>
+</body>
+</html>

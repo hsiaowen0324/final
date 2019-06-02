@@ -38,13 +38,7 @@ table img{
 	padding-top:5%;
 	padding-right:11%;
 }
-.userphotoborder{
-	border:2px dashed black;
-	height: 150px;
-	width: 150px;
-	border-radius: 50%;
-	margin: 8% 30% 5%; 
-}
+
 .user-title{
 	font-size: 20px;
 	font-weight: bold;
@@ -57,4 +51,73 @@ table img{
 }
 .order-content{
 	border-top-style: none;
+}
+
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 10%;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 50%;
+  padding:5% 8%;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.noorder{
+	width: 200px;
+	height: 200px;
+}
+.web-footer{
+  background-color:rgba(0,0,0,0.6);
+  color:white;
+}
+.web-footer a{
+  color: white;
+  font-size:18px;
+}
+.footer-context{
+  font-size: 14px;
+}
+.footer-title{
+  font-weight: bold;
 }

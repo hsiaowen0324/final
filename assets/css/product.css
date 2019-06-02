@@ -172,3 +172,17 @@ body{
 	    -webkit-background-clip: text;
 	    -webkit-text-fill-color: transparent;
 	}
+	.web-footer{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+}
+.web-footer a{
+	color: white;
+	font-size:18px;
+}
+.footer-context{
+	font-size: 14px;
+}
+.footer-title{
+	font-weight: bold;
+}

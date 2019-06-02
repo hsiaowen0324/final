@@ -1,43 +1,6 @@
 body{
 	font-family: '微軟正黑體';
 }
-.top-info{
-	position: relative;
-}
-.search-box{
-	height: 40px;
-	border-radius: 40px;
-	background: white;
-	padding: 10px;
-	border: 1px solid #17a2b8;
-	transform: translateY(-18%);
-}
-.search-btn{
-	color:#17a2b8;
-	float: left;
-	background: white;
-	width: 40px;
-	height: 40px;
-
-}
-
-.search-box:hover >.search-btn{
-	width: 200px;
-	padding: 0;
-	color:#17a2b8;
-}
-.search-txt{
-	border:none;
-	background:none;
-	outline:none;
-	float: right;
-	padding:0;
-	color:white;
-	font-size: 16px;
-	transition: 0.4s;
-	line-height: 40px;
-	width: 0px;
-}
 .logo-image{
 	height: 120px;
 	width:180px;
@@ -116,14 +79,11 @@ opacity: 1;
 	
 } .card-text{
 	font-size:14px;
-	
-
 }
 .price{
 	font-weight: bolder;
 	font-size: 24px;
 	color:#AA0000;
-
 }
 .card-text h5{
 
@@ -132,7 +92,6 @@ opacity: 1;
 .ProductTitle{
 	font-weight: bolder;
 	font-size: 50px;
-
 	
 }
 .newImage{
@@ -153,4 +112,18 @@ opacity: 1;
 }
 .featureImg{
 	height:400px;
+}
+.web-footer{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+}
+.web-footer a{
+	color: white;
+	font-size:18px;
+}
+.footer-title{
+	font-weight: bold;
+}
+.footer-context{
+	font-size: 14px;
 }

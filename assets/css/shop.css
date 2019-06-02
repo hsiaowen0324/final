@@ -1,21 +1,27 @@
+
 body{
-	font-family: "微軟正黑體";
+	font-family: '微軟正黑體';
+}
+.top-info{
+	position: relative;
 }
 .logo-image{
 	height: 80px;
 	width:120px;
 }
-.top-info{
-	background-color:white;
-}
-.card-header{
-	background: white;
-	font-size: 18px;
-	color:black;
+.shopphoto{
+	height:230px;
+	width: 230px;
 }
 .card{
-	border-right:none;
-	border-left:none;
+	height
+}
+ul{
+	list-style: none;
+}
+.face-img{
+	height:100px;
+	width: 100px;
 }
 .web-footer{
 	background-color:rgba(0,0,0,0.6);
@@ -27,6 +33,7 @@ body{
 }
 .footer-context{
 	font-size: 14px;
-}.footer-title{
+}
+.footer-title{
 	font-weight: bold;
 }
