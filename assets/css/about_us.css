@@ -11,10 +11,18 @@ body{
 }
 .title{
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 40px;
 }
 .content{
-	font-size: 18px;
+	font-size: 14px;
+}
+.r-content:hover{
+	transform: scale(1.1);
+	transition: 0.8s ease-in-out;
+
+}
+.r-img:hover{
+	transform:rotate(5deg);
 }
 .web-footer{
 	background-color:rgba(0,0,0,0.6);
@@ -24,9 +32,48 @@ body{
 	color: white;
 	font-size:18px;
 }
+.footer-title{
+	font-weight: bold;
+}
 .footer-context{
 	font-size: 14px;
 }
-.footer-title{
+.footer-item{
+	background-color:rgba(0,0,0,0.7);
+	font-size: 12px;
+}
+.reason{
+	width:80%;
+	height: 60%;
+}
+.img-title:hover{
+	transform:rotate(12deg);
+}
+.wen:hover{
+ background-color: #FCE6C9;
+}
+.terry:hover{
+ background-color: #F5DEB3;
+}
+.ray:hover{
+ background-color: #BDFCC9;
+}
+.rain:hover{
+ background-color: #DCDCDC;
+}
+.caption{
+position: absolute;
+top:50%;
+width: 100%;
+text-align: center;
+
+}
+.img-title{
+	width: 200px;
+	height:200px;
+	padding-bottom: 3%;
+}
+.team-content{
+	font-size: 16px;
 	font-weight: bold;
 }

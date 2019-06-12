@@ -37,17 +37,16 @@
 		}
 		</script>
 	</head>
-	<body>
-		<!--頂部網頁資訊開始-->
+	<body class="bg-light">
 		<div class="container-fluid px-0 mx-0">
-			<div class="top-info ">
+			<div class="top-info fixed-top">
 				<!--LOGO開始-->
 				<div class="d-flex row mx-0 px-2 justify-content-between align-items-center ">
 					<div class="d-flex row mx-0 px-2 justify-content-start  ">
 						
 						<div class="logo">
 							<a href="index.html">
-								<img class="  d-block  logo-image" src="assets/image/logo.png" alt="logo" >
+								<img class="d-block  logo-image" src="assets/image/logo.png" alt="logo" >
 							</a>
 						</div>
 						
@@ -60,19 +59,17 @@
 									<div class="collapse navbar-collapse" id="navbarSupportedContent">
 										<ul class="navbar-nav mr-auto">
 											<li class="nav-item active p-2">
-												<a class="nav-link" href="shop.html"> Product <span class="sr-only">(current)</span></a>
+												<a class="nav-link nav-bold" href="shop.html"> Product <span class="sr-only">(current)</span></a>
 											</li>
 											<li class="nav-item p-2">
-												<a class="nav-link" href="about_us.html"> About_Us </a>
+												<a class="nav-link nav-bold" href="about_us.html"> About_Us </a>
 											</li>
 											<li class="nav-item p-2">
-												<a class="nav-link" href="Contact_Us.html"> Contact_Us</a>
+												<a class="nav-link nav-bold" href="Contact_Us.html"> Contact_Us</a>
 											</li>
+											
 											<li class="nav-item p-2">
-												<a class="nav-link" href="class.html"> Classes</a>
-											</li>
-											<li class="nav-item p-2">
-												<a class="nav-link" href="FAQ.html"> FAQ</a>
+												<a class="nav-link nav-bold" href="FAQ.html"> FAQ</a>
 											</li>
 										</ul>
 									</div>
@@ -83,9 +80,10 @@
 					
 					<div class="member">
 						<ul class="list-inline-item">
+							
 							<li class="list-inline-item">
 								<a href="login.html" >
-									<div class="btn btn-outline-info signin-button">
+									<div class="btn btn-outline-dark signin-button">
 										<span class="far fa-user fa-3g"> </span>
 										<span class="menu-words align-items-center">登入會員</span>
 									</div>
@@ -93,7 +91,7 @@
 							</li>
 							<li class="list-inline-item">
 								<a href="cart.html" >
-									<div class="btn btn-outline-info signin-button">
+									<div class="btn btn-outline-dark signin-button">
 										<span class="fas fa-shopping-cart fa-3g"> </span>
 										<span class="menu-words align-items-center">購物車</span>
 									</div>
@@ -127,13 +125,12 @@
 			<!--登入連結-->
 			<form>
 				<div class="login-show " id="login-show" >
-					<h2>Login</h2>
-					
+					<h2 class="pt-5">Login</h2>
 					<div class="form-group row">
 						<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
 						<div class="col-sm-10">
-							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-						</div>
+						<input type="text" class="form-control" id="inputName" placeholder="Email">
+					</div>
 					</div>
 					<div class="form-group row">
 						<label for="inputPassword3 " class="col-sm-2 col-form-label">Password</label>
@@ -149,6 +146,19 @@
 			<form>
 				<div class="register-show" id="register-show">
 					<h2>Register</h2>
+					<div class="form-group row">
+						<label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputName" placeholder="Name">
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label for="inputphone" class="col-sm-2 ">phone:</label>
+						<div class="col-sm-10">
+							<input type="tel" class="form-control" id="inputphone" placeholder="0900-000000">
+						</div>
+					</div>
 					<div class="form-group row">
 						<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
 						<div class="col-sm-10">

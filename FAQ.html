@@ -11,16 +11,16 @@
 		<script src="assets/js/jquery-3.4.0.min.js" type="text/javascript"></script>
 		<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 	</head>
-	<body>
+	<body class="bg-light">
 		<div class="container-fluid px-0 mx-0">
-			<div class="top-info ">
+			<div class="top-info fixed-top">
 				<!--LOGO開始-->
 				<div class="d-flex row mx-0 px-2 justify-content-between align-items-center ">
 					<div class="d-flex row mx-0 px-2 justify-content-start  ">
 						
 						<div class="logo">
 							<a href="index.html">
-								<img class="  d-block  logo-image" src="assets/image/logo.png" alt="logo" >
+								<img class="d-block  logo-image" src="assets/image/logo.png" alt="logo" >
 							</a>
 						</div>
 						
@@ -33,19 +33,17 @@
 									<div class="collapse navbar-collapse" id="navbarSupportedContent">
 										<ul class="navbar-nav mr-auto">
 											<li class="nav-item active p-2">
-												<a class="nav-link" href="shop.html"> Product <span class="sr-only">(current)</span></a>
+												<a class="nav-link nav-bold" href="shop.html"> Product <span class="sr-only">(current)</span></a>
 											</li>
 											<li class="nav-item p-2">
-												<a class="nav-link" href="about_us.html"> About_Us </a>
+												<a class="nav-link nav-bold" href="about_us.html"> About_Us </a>
 											</li>
 											<li class="nav-item p-2">
-												<a class="nav-link" href="Contact_Us.html"> Contact_Us</a>
+												<a class="nav-link nav-bold" href="Contact_Us.html"> Contact_Us</a>
 											</li>
+											
 											<li class="nav-item p-2">
-												<a class="nav-link" href="class.html"> Classes</a>
-											</li>
-											<li class="nav-item p-2">
-												<a class="nav-link" href="FAQ.html"> FAQ</a>
+												<a class="nav-link nav-bold" href="FAQ.html"> FAQ</a>
 											</li>
 										</ul>
 									</div>
@@ -56,9 +54,10 @@
 					
 					<div class="member">
 						<ul class="list-inline-item">
+							
 							<li class="list-inline-item">
 								<a href="login.html" >
-									<div class="btn btn-outline-info signin-button">
+									<div class="btn btn-outline-dark signin-button">
 										<span class="far fa-user fa-3g"> </span>
 										<span class="menu-words align-items-center">登入會員</span>
 									</div>
@@ -66,7 +65,7 @@
 							</li>
 							<li class="list-inline-item">
 								<a href="cart.html" >
-									<div class="btn btn-outline-info signin-button">
+									<div class="btn btn-outline-dark signin-button">
 										<span class="fas fa-shopping-cart fa-3g"> </span>
 										<span class="menu-words align-items-center">購物車</span>
 									</div>
@@ -81,22 +80,156 @@
 		<div class="container-fluid">
 			<img src="assets/image/FAQ.jpg" class="w-100 " alt="FAQ">
 		</div>
-		<!--FAQ-->
-		<div class="container">
-			<div class="col-10 offset-1 pt-5">
-			<div id="accordion">
-				<div class="card">
-					<button class="btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-					<div class="card-header" id="headingOne">
+		<div class="container-fluid pt-5">
+			<div class="row justify-content-center align-items-end">
+		<img src="assets/image/faq.png"class="faq-img px-2" alt="">
+		
+
+		</div>
+	</div>
+<script>
+	 $(function () {
+ $('#myTab a[href="#v-pills-service"]').tab('show')
+$('#myTab a[href="#v-pills-maintenance"]').tab('show')
+})
+</script>
+<div class="container-fluid">	
+		<div class="row justify-content-center ">
+  <div class="col-3 p-5">
+    <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">   
+      <a class="nav-link active" id="v-pills-service-tab" data-toggle="pill" href="#v-pills-service" role="tab" aria-controls="v-pills-service" aria-selected="true">客服專區</a>
+       <a class="nav-link " id="v-pills-maintenance-tab" data-toggle="pill" href="#v-pills-maintenance" role="tab" aria-controls="v-pills-maintenance" aria-selected="false">保養專區</a>
+    </div>
+  </div>
+  <div class="col-8 p-5">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-service" role="tabpanel" aria-labelledby="v-pills-service-tab">
+      	<div id="accordion">
+				<div class="card card-text">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapse-item-One" aria-expanded="false" aria-controls="collapse-item-One">
+					<div class="card-header" id="heading-item-One">
 						<div class="row mb-0 text-left justify-content-between">						
-						<span class="fas fa-question">  常見問題常見問題</span>
+						<span class="fas fa-question "> <span class="card-text"> 請告訴我有甚麼付款方式?</span></span>
 						<i class="fas fa-angle-down"></i>
 						</div>
 					</div>
 					</button>
-					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+					<div id="collapse-item-One" class="collapse" aria-labelledby="heading-item-One" data-parent="#accordion">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							<span class="fab fa-font-awesome-flag px-3"><span class="ans-card-text">親愛的顧客您好，本店的付款方式主要分貨到付款及線上付款兩大類。其中線上付款更分為信用卡一次繳清、ATM轉帳及LINEPAY等方式，可選擇最適合您的付款方式，感謝您的提問。</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="card card-text">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapse-item-Two" aria-expanded="false" aria-controls="collapse-item-Two">
+					<div class="card-header" id="heading-item-Two">
+						<div class="row mb-0 text-left justify-content-between">						
+						<span class="fas fa-question"> <span class="card-text"> 有提供商品郵寄的服務嗎?</span></span>
+						<i class="fas fa-angle-down"></i>
+						</div>
+					</div>
+					</button>
+					<div id="collapse-item-Two" class="collapse" aria-labelledby="heading-item-Two" data-parent="#accordion">
+						<div class="card-body">
+							<span class="fab fa-font-awesome-flag "><span class="ans-card-text">親愛的顧客您好，本店提供宅配到府及7-11貨到付款取貨方式，可選擇最適合您的取貨方法，在運送過程中，若有產生任何毀損，請聯絡我們，我們將會派專員為您服務，感謝您的提問。</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="card card-text">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapse-item-Three" aria-expanded="false" aria-controls="collapse-item-Three">
+					<div class="card-header" id="heading-item-Three">
+						<div class="row mb-0 text-left justify-content-between">						
+						<span class="fas fa-question"> <span class="card-text">如果網站顯示的配送進度為已出貨，但遲遲未收到商品，請問該怎麼辦？</span></span>
+						<i class="fas fa-angle-down"></i>
+						</div>
+					</div>
+					</button>
+					<div id="collapse-item-Three" class="collapse" aria-labelledby="heading-item-Three" data-parent="#accordion">
+						<div class="card-body">
+							<span class="fab fa-font-awesome-flag "><span class="ans-card-text">親愛的顧客您好，請於【聯絡我們】中留言詢問客服人員，或者是撥打客服專線，我們將盡速為您查件，感謝您的提問。</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="card card-text">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapse-item-Four" aria-expanded="false" aria-controls="collapse-item-Four">
+					<div class="card-header" id="heading-item-Four">
+						<div class="row mb-0 text-left justify-content-between">						
+						<span class="fas fa-question "> <span class="card-text">請問一定要註冊才能購買東西嗎?</span></span>
+						<i class="fas fa-angle-down"></i>
+						</div>
+					</div>
+					</button>
+					<div id="collapse-item-Four" class="collapse" aria-labelledby="heading-item-Four" data-parent="#accordion">
+						<div class="card-body">
+							<span class="fab fa-font-awesome-flag"><span class="ans-card-text">親愛的顧客您好，為了將您購買的商品能夠順利送到您的手中，有些資料需要您的配合填寫，以方便內部運作及查詢訂單，感謝您的提問及配合。</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="card card-text">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapse-item-Five" aria-expanded="false" aria-controls="collapse-item-Five">
+					<div class="card-header" id="heading-item-Five">
+						<div class="row mb-0 text-left justify-content-between">						
+						<span class="fas fa-question "> <span class="card-text">若在運送中途發生商品發生毀損該如何反映?</span></span>
+						<i class="fas fa-angle-down"></i>
+						</div>
+					</div>
+					</button>
+					<div id="collapse-item-Five" class="collapse" aria-labelledby="heading-item-Five" data-parent="#accordion">
+						<div class="card-body">
+							<span class="fab fa-font-awesome-flag"><span class="ans-card-text">親愛的顧客您好，若在運送過程中，有產生任何毀損，請於【聯絡我們】中留言詢問客服人員，或撥打客服專線，我們將會派專員為您服務，感謝您的提問</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="card ">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapse-item-Six" aria-expanded="false" aria-controls="collapse-item-Six">
+					<div class="card-header" id="heading-item-Six">
+						<div class="row mb-0 text-left justify-content-between">						
+						<span class="fas fa-question "><span class="card-text">若商品損壞可回至原廠維修嗎?保固多久?</span></span>
+						<i class="fas fa-angle-down"></i>
+						</div>
+					</div>
+					</button>
+					<div id="collapse-item-Six" class="collapse" aria-labelledby="heading-item-Six" data-parent="#accordion">
+						<div class="card-body">
+							<span class="fab fa-font-awesome-flag"><span class="ans-card-text">親愛的顧客您好，本店提供一年保固，若商品上有人工刻意損壞，請恕我們無提供此服務，其外，若超出一年我們將提供7折修繕服務，詳情請洽客服專線，感謝您的提問</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="card ">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapse-item-Seven" aria-expanded="false" aria-controls="collapse-item-Seven">
+					<div class="card-header" id="heading-item-Seven">
+						<div class="row mb-0 text-left justify-content-between">						
+						<span class="fas fa-question "><span class="card-text">為何會戴安全眼鏡會昏眩? 無法工作?</span></span>
+						<i class="fas fa-angle-down"></i>
+						</div>
+					</div>
+					</button>
+					<div id="collapse-item-Seven" class="collapse" aria-labelledby="heading-item-Seven" data-parent="#accordion">
+						<div class="card-body">
+							<span class="fab fa-font-awesome-flag"><span class="ans-card-text">親愛的顧客您好，因這關係到驗光配鏡的技術性，驗光之前同時應參考舊有眼鏡之處方，使用期間多久，目前年齡，對新眼鏡之敏感度，然後才正式驗光，並開立處方，驗光與配鏡之一貫性，個人習性應考慮在配鏡上，顧會產生此情況，感謝您的提問</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+      </div>
+
+      <div class="tab-pane fade" id="v-pills-maintenance" role="tabpanel" aria-labelledby="v-pills-maintenance-tab">
+      	<div id="accordion-1">
+				<div class="card">
+					<button class="btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+					<div class="card-header" id="headingOne">
+						<div class="row mb-0 text-left justify-content-between">						
+						<span class="fas fa-question">  <span class="card-text">請問塑膠眼鏡框要如何保養?</span></span>
+						<i class="fas fa-angle-down"></i>
+						</div>
+					</div>
+					</button>
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-1">
+						<div class="card-body">
+							<span class="fab fa-font-awesome-flag"><span class="ans-card-text">
+							親愛的您好，應盡量眼鏡避免(包括隱形眼鏡)放直熱源處，以免變形，並妥善放置眼鏡盒內，鏡面要向上，若長期不用，則需定期清潔保養及通風。
+						</span>
+					</span>
 						</div>
 					</div>
 				</div>
@@ -104,14 +237,18 @@
 					<button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 					<div class="card-header" id="headingTwo">
 						<div class="row mb-0 text-left justify-content-between">						
-						<span class="fas fa-question">  常見問題常見問題</span>
+						<span class="fas fa-question"> <span class="card-text">請問如何鏡片保養？</span></span>
 						<i class="fas fa-angle-down"></i>
 						</div>
 					</div>
 				</button>
-					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-1">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							<span class="fab fa-font-awesome-flag"><span class="ans-card-text">
+							親愛的顧客您好，在清潔眼鏡前先用清水沖刷眼鏡後，再以洗碗精清潔鏡片及框鏡，以指肉畫圓的方式使鏡片上起小泡沫後，再以清水沖洗乾淨，最後以衛生紙吸壓將水份吸乾。<br>
+							貼心小提醒：避免使用沐浴乳清潔，雖不會傷害鏡片，但是此清潔用品中的成份在你清潔鏡片後有殘留物的霧光感，故不適用
+						</span>
+					</span>
 						</div>
 					</div>
 				</div>
@@ -119,20 +256,27 @@
 					<button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 					<div class="card-header" id="headingThree">
 						<div class="row mb-0 text-left justify-content-between">						
-						<span class="fas fa-question">  常見問題常見問題</span>
+						<span class="fas fa-question"><span class="card-text">  請問要如何才不會刮傷鏡片?</span></span>
 						<i class="fas fa-angle-down"></i>
 						</div>
 					</div>
 				</button>
-					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-1">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							<span class="fab fa-font-awesome-flag"><span class="ans-card-text">
+							 親愛的顧客您好，在鏡片未以清水沖洗過前，請勿先行以布或紙巾擦試鏡片。因為一般在外我們戴著眼鏡時，細微小細沙或髒東西會沾附在我們的鏡片上，此時若直接加壓上一塊布，來回用力的擦拭時，布面壓著細沙的情況下，容易磨損使鏡片刮傷，故建議先用清水將小細沙或髒東西沖刷，再擦拭較妥當。
+							</span>
+						</span>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 		<footer class="web-footer">
 	<div class="container web-item-footer">
 		<div class="row justify-content-center">
@@ -159,7 +303,7 @@
 					</div>
 					<div class="footer-title p-4"><a href="about_us.html">About Us</a>
 						<div class="footer-context pt-2">
-							創設緣由<br>
+							創社緣由<br>
 							創社理念<br>
 							未來願景<br>
 							團隊<br>
@@ -171,14 +315,7 @@
 							為您推薦<br>
 						</div>
 					</div>
-					<div class="footer-title p-4"><a href="class.html">Classes</a>
-						<div class="footer-context pt-2">
-							視力保健<br>
-							鏡框介紹<br>
-							鏡框保養<br>
-							鏡片保養<br>
-						</div>
-					</div>
+					
 					<div class="footer-title p-4"><a href="FAQ.html">FAQ</a>
 						<div class="footer-context pt-2">
 								常見問題
@@ -187,11 +324,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-end footer-item p-2">瀏覽人數:000000</div>
+		<div class="row justify-content-end  p-2">瀏覽人數:000000</div>
 	</div>
 </div>
-<div class="container-fluid py-3 bg-dark">
-	<div class="row justify-content-center align-items-center footer-item">
+<div class="container-fluid py-2 footer-item">
+	<div class="row justify-content-center align-items-center ">
 		Copyright &copy     Alfie   做您唯一的專屬顧問   since 2019
 	</div>
 </div>

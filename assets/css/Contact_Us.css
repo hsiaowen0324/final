@@ -17,7 +17,7 @@ body{
 	font-weight: bold;
 	padding-top: 5%;
 }
-form{
+.board-form{
 	padding:8%;
 }
 label{
@@ -44,4 +44,8 @@ label{
 	font-size: 14px;
 }.footer-title{
 	font-weight: bold;
+}
+.footer-item{
+	background-color:rgba(0,0,0,0.7);
+	font-size: 12px;
 }

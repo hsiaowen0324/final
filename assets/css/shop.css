@@ -31,9 +31,13 @@ ul{
 	color: white;
 	font-size:18px;
 }
+.footer-title{
+	font-weight: bold;
+}
 .footer-context{
 	font-size: 14px;
 }
-.footer-title{
-	font-weight: bold;
+.footer-item{
+	background-color:rgba(0,0,0,0.7);
+	font-size: 12px;
 }

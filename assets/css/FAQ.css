@@ -1,5 +1,6 @@
 body{
-	font-family: "微軟正黑體";
+	background-color:#f8f9fa;
+	font-family:"微軟正黑體";
 }
 .logo-image{
 	height: 80px;
@@ -14,8 +15,7 @@ body{
 	color:black;
 }
 .card{
-	border-right:none;
-	border-left:none;
+border:none;
 }
 .web-footer{
 	background-color:rgba(0,0,0,0.6);
@@ -29,4 +29,36 @@ body{
 	font-size: 14px;
 }.footer-title{
 	font-weight: bold;
+}
+.footer-item{
+	background-color:rgba(0,0,0,0.7);
+	font-size: 12px;
+}
+.card-text{
+font-family: "微軟正黑體";
+}
+.ans-card-text{
+	font-family: "微軟正黑體";
+	line-height: 30px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color:white;
+	background-color: rgba(	153,204,204,0.8);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	color:#3d7878;
+	background-color: #fff;
+}
+.nav-link{
+	color:#3d7878;
+	font-weight: bold;
+}
+.nav-link:hover{
+	color:#4f9d9d;
+}.faq-img{
+	width: 55%;
+	height: 250px;
 }

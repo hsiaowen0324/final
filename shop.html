@@ -12,16 +12,16 @@
 		<script src="assets/js/shop.js" type="text/javascript"></script>
 		<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 	</head>
-	<body>
+	<body class="bg-light">
 		<div class="container-fluid px-0 mx-0">
-			<div class="top-info ">
+			<div class="top-info fixed-top">
 				<!--LOGO開始-->
 				<div class="d-flex row mx-0 px-2 justify-content-between align-items-center ">
 					<div class="d-flex row mx-0 px-2 justify-content-start  ">
 						
 						<div class="logo">
 							<a href="index.html">
-								<img class="  d-block  logo-image" src="assets/image/logo.png" alt="logo" >
+								<img class="d-block  logo-image" src="assets/image/logo.png" alt="logo" >
 							</a>
 						</div>
 						
@@ -34,19 +34,16 @@
 									<div class="collapse navbar-collapse" id="navbarSupportedContent">
 										<ul class="navbar-nav mr-auto">
 											<li class="nav-item active p-2">
-												<a class="nav-link" href="shop.html"> Product <span class="sr-only">(current)</span></a>
+												<a class="nav-link nav-bold" href="shop.html"> Product <span class="sr-only">(current)</span></a>
 											</li>
 											<li class="nav-item p-2">
-												<a class="nav-link" href="about_us.html"> About_Us </a>
+												<a class="nav-link nav-bold" href="about_us.html"> About_Us </a>
 											</li>
 											<li class="nav-item p-2">
-												<a class="nav-link" href="Contact_Us.html"> Contact_Us</a>
+												<a class="nav-link nav-bold" href="Contact_Us.html"> Contact_Us</a>
 											</li>
 											<li class="nav-item p-2">
-												<a class="nav-link" href="class.html"> Classes</a>
-											</li>
-											<li class="nav-item p-2">
-												<a class="nav-link" href="FAQ.html"> FAQ</a>
+												<a class="nav-link nav-bold" href="FAQ.html"> FAQ</a>
 											</li>
 										</ul>
 									</div>
@@ -58,8 +55,14 @@
 					<div class="member">
 						<ul class="list-inline-item">
 							<li class="list-inline-item">
+								<form class="form-inline my-2 my-lg-0">
+									<input class="form-control mr-sm-2" type="search" placeholder="請輸入關鍵字" aria-label="Search">
+									<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">搜尋</button>
+								</form>
+							</li>
+							<li class="list-inline-item">
 								<a href="login.html" >
-									<div class="btn btn-outline-info signin-button">
+									<div class="btn btn-outline-dark signin-button">
 										<span class="far fa-user fa-3g"> </span>
 										<span class="menu-words align-items-center">登入會員</span>
 									</div>
@@ -67,7 +70,7 @@
 							</li>
 							<li class="list-inline-item">
 								<a href="cart.html" >
-									<div class="btn btn-outline-info signin-button">
+									<div class="btn btn-outline-dark signin-button">
 										<span class="fas fa-shopping-cart fa-3g"> </span>
 										<span class="menu-words align-items-center">購物車</span>
 									</div>
@@ -80,7 +83,7 @@
 		</div>
 		<!--banner-->
 		<div class="container-fluid">
-			<img src="assets/image/FAQ.jpg" class="w-100 " alt="FAQ">
+			<img src="assets/image/shop.jpg" class="w-100 " alt="shop">
 		</div>
 		<!--上面按件-->
 		<div class="shop p-5">
@@ -177,41 +180,35 @@
 				<!--為您推薦-->
 				<div class="tab-pane fade show " id="pills-suggest" role="tabpanel" aria-labelledby="pills-suggest-tab">
 					<div class=" col-12 pt-5">
-						<ul class="list-inline-item nav justify-content-center" id="myTab" role="tablist">
-							<div class="face-item-title list-inline-item">臉型:</div>
+						<ul class="list-inline-item nav justify-content-center align-items-center" id="myTab" role="tablist">
+							<div class="face-item-title list-inline-item " style="font-size: 30px; font-weight: bolder">選擇臉型</div>
 							<li class=" list-inline-item mx-4 nav-item">
 								<a class="nav-link active" id="circle-tab" data-toggle="tab" href="#circle" role="tab" aria-controls="circle" aria-selected="true">
-									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<img src="assets/image/circle.jpg" class="face-img img-top round d-block">
 									<div class="face-text px-4">圓形</div>
 								</a>
 							</li>
 							<li class=" list-inline-item mx-4 nav-item" >
 								<a class="nav-link " id="square-tab" data-toggle="tab" href="#square" role="tab" aria-controls="square" aria-selected="false">
-									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<img src="assets/image/square.jpg" class="face-img img-top round d-block">
 									<div class="face-text px-4">方形</div>
 								</a>
 							</li>
 							<li class=" list-inline-item mx-4 nav-item">
 								<a class="nav-link " id="oval-tab" data-toggle="tab" href="#oval" role="tab" aria-controls="oval" aria-selected="false">
-									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
-									<div class="face-text px-4">瓜子臉</div>
+									<img src="assets/image/egg.jpg" class="face-img img-top round d-block">
+									<div class="face-text px-4">蛋臉</div>
 								</a>
 							</li>
 							<li class=" list-inline-item mx-4 nav-item">
 								<a class="nav-link " id="rectangular-tab" data-toggle="tab" href="#rectangular" role="tab" aria-controls="rectangular" aria-selected="false">
-									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<img src="assets/image/rec.jpg" class="face-img img-top round d-block">
 									<div class="face-text px-4">長方形</div>
 								</a>
 							</li>
 							<li class=" list-inline-item mx-4 nav-item">
 								<a class="nav-link " id="heart-tab" data-toggle="tab" href="#heart" role="tab" aria-controls="heart" aria-selected="false">
-									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
-									<div class="face-text px-4">心形</div>
-								</a>
-							</li>
-							<li class="list-inline-item mx-4 nav-item">
-								<a class="nav-link " id="triangular-tab" data-toggle="tab" href="#triangular" role="tab" aria-controls="triangular" aria-selected="false">
-									<img src="assets/image/product.jpg" class="face-img img-top round d-block">
+									<img src="assets/image/tri.jpg" class="face-img img-top round d-block">
 									<div class="face-text px-4">倒三角形</div>
 								</a>
 							</li>
@@ -429,51 +426,14 @@
 							</div>
 						</div>
 						
-						<div class="tab-pane" id="triangular" role="tabpanel" aria-labelledby="triangular-tab">
-							<div class="col-md-11 justify-content-start align-items-center offset-1">
-								<div class="card-deck pt-3">
-									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
-										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
-										<div class="pt-2 col-10 shop-item-details row justify-content-center">
-											<div class="shop-item-title">三角商品名稱商品名稱</div>
-											<div class="row mx-0 justify-content-around col-8 px-0">
-												<div class="shop-item-price">NT$550</div>
-												<form class=" " action="">
-													<button class=" btn shop-item-button fas fa-shopping-cart">
-													<input type='hidden' name='pid' value="">
-													<input type='hidden' name='ProductName' value="">
-													<input type='hidden' name='ProductPrice' value="">
-													<input type='hidden' name='ProductImg' value="">
-													</button>
-												</form>
-											</div>
-										</div>
-									</div>
-
-									<div class="shop-item col-lg-3 col-md-6 col-12 row justify-content-center ">
-										<a href="product.html"><img class="shopphoto d-block" src="assets/image/product.jpg" ></a>
-										<div class="pt-2 col-10 shop-item-details row justify-content-center">
-											<div class="shop-item-title">商品名稱商品名稱</div>
-											<div class="row mx-0 justify-content-around col-8 px-0">
-												<div class="shop-item-price">NT$550</div>
-												<form class=" " action="">
-													<button class=" btn shop-item-button fas fa-shopping-cart">
-													<input type='hidden' name='pid' value="">
-													<input type='hidden' name='ProductName' value="">
-													<input type='hidden' name='ProductPrice' value="">
-													<input type='hidden' name='ProductImg' value="">
-													</button>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+		
 					</div>
 				</div>
 			</div>
-			<footer class="web-footer">
+			</div>
+		
+
+<footer class="web-footer">
 	<div class="container web-item-footer">
 		<div class="row justify-content-center">
 			<div class="col-4 pt-5">
@@ -499,7 +459,7 @@
 					</div>
 					<div class="footer-title p-4"><a href="about_us.html">About Us</a>
 						<div class="footer-context pt-2">
-							創設緣由<br>
+							創社緣由<br>
 							創社理念<br>
 							未來願景<br>
 							團隊<br>
@@ -511,14 +471,6 @@
 							為您推薦<br>
 						</div>
 					</div>
-					<div class="footer-title p-4"><a href="class.html">Classes</a>
-						<div class="footer-context pt-2">
-							視力保健<br>
-							鏡框介紹<br>
-							鏡框保養<br>
-							鏡片保養<br>
-						</div>
-					</div>
 					<div class="footer-title p-4"><a href="FAQ.html">FAQ</a>
 						<div class="footer-context pt-2">
 								常見問題
@@ -527,11 +479,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-end footer-item p-2">瀏覽人數:000000</div>
+		<div class="row justify-content-end  p-2">瀏覽人數:000000</div>
 	</div>
 </div>
-<div class="container-fluid py-3 bg-dark">
-	<div class="row justify-content-center align-items-center footer-item">
+<div class="container-fluid py-2 footer-item">
+	<div class="row justify-content-center align-items-center ">
 		Copyright &copy     Alfie   做您唯一的專屬顧問   since 2019
 	</div>
 </div>
